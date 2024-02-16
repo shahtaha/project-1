@@ -1,0 +1,161 @@
+html,
+body {
+  margin: 0%;
+  padding: 0%;
+  font-family: protest riot, Arial, Helvetica, sans-serif;
+  font-size: 1.3rem;
+  box-sizing: border-box;
+}
+header {
+  border-bottom: 1px solid lavenderblush;
+  box-shadow: 3px 3px 3px black;
+  display: flex;
+  padding: 0 20px;
+  justify-content: space-between;
+  /* background-color: #80BCBD;  */
+  position: sticky;
+  /* opacity: 0.; */
+}
+header::before {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  height: 70px;
+  width: 100vw;
+  content: "";
+  background-color: #80bcbd;
+  z-index: -1;
+  opacity: 0.5;
+}
+
+header .box {
+  /* border: 1px solid black; */
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+#b1 {
+  width: 150px;
+  display: block;
+}
+#b1 > div {
+  height: 40px;
+  width: 150px;
+  /* border: 1px solid black;  */
+  background-image: url(/PROJECT202/logofitness.png);
+  background-size: cover;
+  mix-blend-mode: darken;
+  background-position: center 105px;
+}
+#b1 > img {
+  height: 80px;
+  width: 80px;
+}
+
+#b1 > .s1 {
+  text-align: center;
+  display: block;
+  /* border: 1px solid black; */
+}
+#b2 {
+  gap: 50px;
+}
+#b2 > a {
+  padding: 8px 0;
+}
+/* #b2 > a:hover {
+  border-radius: 5px;
+  background-color: #a5c5c5;
+} */
+#b3 {
+  flex-direction: row-reverse;
+  gap: 20px;
+}
+#b3 .lgn {
+  padding: 8px 0;
+  /* border: 1px solid black;   */
+  display: flex;
+}
+#b3 .lgn > div {
+  align-items: center;
+  display: flex;
+}
+#b3 .menu {
+    padding: 12px 0;
+  /* border: 1px solid black; */
+  display: flex;
+}
+#b3 .lgn:hover,
+#b3 .menu:hover,
+#b2 > a:hover {
+  border-radius: 5px;
+  background-color: #a5c5c5;
+}
+/*  header end */
+
+
+
+
+
+
+
+
+/* main open */
+main {
+  /* padding: 0 30px; */
+  margin: auto;
+}
+main > .intro{
+      height: 500px; 
+    text-align: center;
+    padding: 0 20px;
+    color: white;
+}
+.intro::before{
+    content: "";
+    position: absolute;
+    z-index: -1;
+    background-image: url(/PROJECT202/fitnesshero1.jpg);
+    height: 500px; 
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+.intro > h1, p{
+    border: 1px solid white;
+    backdrop-filter: blur(5px);
+    background-color: transparent;
+    opacity: 0.8;
+}
+.intro > button{
+    color: white;
+    border: 1px solid white; 
+    backdrop-filter: blur(5px);
+    background-color: transparent;
+    opacity: 0.8;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    cursor: =+++++;
+
+    
+}
+
+footer{
+}
+footer div{
+    text-align: center;
+}
+
+footer::before {
+  content: "";
+  background-color: #80bcbd;
+  position: absolute;
+  box-shadow: -3px -3px 3px black;
+  opacity: 0.5;
+  height: 70px;
+  width: 100%;
+  z-index: -1;
+}
